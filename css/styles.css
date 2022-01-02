@@ -1,5 +1,34 @@
-.body {
+body {
+  font-family: Roboto;
 }
+.header {
+}
+.webstudio-top {
+}
+.menu-nav {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.mail {
+  color: #757575;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+.tel {
+  color: #757575;
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+
 .bussines {
   position: absolute;
   width: 696px;
@@ -12,8 +41,6 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
