@@ -1,9 +1,34 @@
 body {
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
+/* header */
+
 .header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
 }
 .webstudio-top {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.web {
+  color: #2196f3;
 }
 .menu-nav {
   position: absolute;
@@ -11,6 +36,69 @@ body {
   height: 16px;
   left: 453px;
   top: 32px;
+}
+.menu-nav-studio {
+  color: #212121;
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.menu-nav-studio:hover,
+.menu-nav-studio:focus {
+  color: #2196f3;
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.menu-nav-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu-nav-portfolio:hover,
+.menu-nav-portfolio:focus {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.menu-nav-contacts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu-nav-contacts:hover,
+.menu-nav-contacts:focus {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
 .mail {
   color: #757575;
@@ -29,16 +117,14 @@ body {
   top: 32px;
 }
 
+/* to order*/
+
 .bussines {
   position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
   top: 280px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
