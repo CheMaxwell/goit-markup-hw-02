@@ -14,9 +14,10 @@ body {
 }
 :root {
   --brand-color: #2196f3;
+  --portfolio-btn-color: #f5f4fa;
 }
 
-/*  header  */
+/*  ----------------header-----------------  */
 
 .header {
   position: absolute;
@@ -27,16 +28,11 @@ body {
   background: #ffffff;
 }
 .webstudio-top {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -51,14 +47,9 @@ body {
   top: 32px;
 }
 .header-nav-studio {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -67,13 +58,8 @@ body {
   color: var(--brand-color);
 }
 .header-nav-portfolio {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -82,13 +68,8 @@ body {
   color: var(--brand-color);
 }
 .header-nav-contacts {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -98,11 +79,6 @@ body {
 }
 .mail-header {
   color: #757575;
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
 }
 .mail-header:hover,
 .mail-header:focus {
@@ -110,24 +86,21 @@ body {
 }
 .tel-header {
   color: #757575;
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
 }
 .tel-header:hover,
 .tel-header:focus {
   color: var(--brand-color);
 }
 
-/*  main  */
+/*  -------------!!!index!!!-------------  */
+
+/*  -------------------main------------  */
 
 .main-index {
   background: #e5e5e5;
 }
 
-/*  to order  */
+/*  -------------------to order-------------  */
 
 .index-section-first {
   position: absolute;
@@ -137,14 +110,9 @@ body {
   top: 80px;
   background: #2f303a;
 }
-.bussines-index {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+.index-bussines {
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -156,18 +124,14 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
+  font-family: inherit;
   background-color: var(--brand-color);
   cursor: pointer;
 }
 .button-index-order-text {
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -175,7 +139,7 @@ body {
   color: #ffffff;
 }
 
-/*  what we do  */
+/*  -----------------what we do---------------  */
 
 .index-section-whatwedo {
   position: absolute;
@@ -189,15 +153,14 @@ body {
 .index-list-whatwedo-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .index-list-whatwedo-text {
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -209,6 +172,12 @@ body {
   top: 969px;
 }
 .index-whatwedo-title-two {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .index-whatwedo-image1 {
   position: absolute;
@@ -232,7 +201,7 @@ body {
   top: 1061px;
 }
 
-/*  our team  */
+/*  ----------------our team-----------------  */
 
 .index-ourteam {
   position: absolute;
@@ -242,14 +211,9 @@ body {
   top: 1449px;
 }
 .index-ourteam-title {
-  position: absolute;
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -284,33 +248,22 @@ body {
 }
 
 .index-ourteam-names {
-  position: absolute;
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .index-ourteam-prof {
-  position: absolute;
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-/*  footer  */
+/*  ---------------footer--------------------  */
 
 .footer {
   position: absolute;
@@ -321,18 +274,180 @@ body {
   background: #2f303a;
 }
 .webstudio-footer {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .footer-address {
+}
+
+/*  -------------  !!!!portfolio!!!!  --------------  */
+
+/*  -----------------main---------------  */
+
+.portfolio-main {
+  background: #ffffff;
+}
+.portfolio-main-title {
+}
+
+/*  -----------------filters--------------  */
+
+.portfolio-filters-section {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+  background: #ffffff;
+}
+.portfolio-filters-btns1 {
+  color: var(--portfolio-btn-color);
+  cursor: pointer;
+}
+.portfolio-filters-btns1:hover,
+.portfolio-filters-btns1:focus {
+  color: var(--brand-color);
+}
+.portfolio-filters-btns2 {
+  color: var(--portfolio-btn-color);
+  cursor: pointer;
+}
+.portfolio-filters-btns2:hover,
+.portfolio-filters-btns2:focus {
+  color: var(--brand-color);
+}
+.portfolio-filters-btns3 {
+  color: var(--portfolio-btn-color);
+  cursor: pointer;
+}
+.portfolio-filters-btns3:hover,
+.portfolio-filters-btns3:focus {
+  color: var(--brand-color);
+}
+.portfolio-filters-btns4 {
+  color: var(--portfolio-btn-color);
+  cursor: pointer;
+}
+.portfolio-filters-btns4:hover,
+.portfolio-filters-btns4:focus {
+  color: var(--brand-color);
+}
+.portfolio-filters-btns5 {
+  color: var(--portfolio-btn-color);
+  cursor: pointer;
+}
+.portfolio-filters-btns5:hover,
+.portfolio-filters-btns5:focus {
+  color: var(--brand-color);
+}
+.portfolio-btns-text1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btns-text1:hover,
+.portfolio-btns-text1:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.portfolio-btns-text2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btns-text2:hover,
+.portfolio-btns-text2:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.portfolio-btns-text3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btns-text3:hover,
+.portfolio-btns-text3:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.portfolio-btns-text4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btns-text4:hover,
+.portfolio-btns-text4:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.portfolio-btns-text5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btns-text5:hover,
+.portfolio-btns-text5:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/*  ----------------projects--------------  */
+
+.portfolio-projects-section {
+  background: #ffffff;
+}
+.portfolio-projects-list {
+}
+.portfolio-list-titles {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
