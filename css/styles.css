@@ -1,9 +1,22 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  background: #e5e5e5;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+[href] {
+  text-decoration: none;
+}
+:root {
+  --brand-color: #2196f3;
 }
 
-/* header */
+/*  header  */
 
 .header {
   position: absolute;
@@ -25,36 +38,35 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #212121;
 }
 .web {
-  color: #2196f3;
+  color: var(--brand-color);
 }
-.menu-nav {
+.header-nav {
   position: absolute;
   width: 294px;
   height: 16px;
   left: 453px;
   top: 32px;
 }
-.menu-nav-studio {
+.header-nav-studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #212121;
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
 }
-.menu-nav-studio:hover,
-.menu-nav-studio:focus {
-  color: #2196f3;
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+.header-nav-studio:hover,
+.header-nav-studio:focus {
+  color: var(--brand-color);
 }
-.menu-nav-portfolio {
+.header-nav-portfolio {
   position: absolute;
   width: 77px;
   height: 16px;
@@ -65,19 +77,11 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.menu-nav-portfolio:hover,
-.menu-nav-portfolio:focus {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+.header-nav-portfolio:hover,
+.header-nav-portfolio:focus {
+  color: var(--brand-color);
 }
-.menu-nav-contacts {
+.header-nav-contacts {
   position: absolute;
   width: 68px;
   height: 16px;
@@ -88,19 +92,11 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.menu-nav-contacts:hover,
-.menu-nav-contacts:focus {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+.header-nav-contacts:hover,
+.header-nav-contacts:focus {
+  color: var(--brand-color);
 }
-.mail {
+.mail-header {
   color: #757575;
   position: absolute;
   width: 135px;
@@ -108,7 +104,11 @@ body {
   left: 1078px;
   top: 32px;
 }
-.tel {
+.mail-header:hover,
+.mail-header:focus {
+  color: var(--brand-color);
+}
+.tel-header {
   color: #757575;
   position: absolute;
   width: 122px;
@@ -116,10 +116,28 @@ body {
   left: 1263px;
   top: 32px;
 }
+.tel-header:hover,
+.tel-header:focus {
+  color: var(--brand-color);
+}
 
-/* to order*/
+/*  main  */
 
-.bussines {
+.main-index {
+  background: #e5e5e5;
+}
+
+/*  to order  */
+
+.index-section-first {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+.bussines-index {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -130,4 +148,191 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
+}
+.index-button-order {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.button-index-order-text {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/*  what we do  */
+
+.index-section-whatwedo {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.index-whatwedo-title {
+}
+.index-list-whatwedo-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.index-list-whatwedo-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.index-whatwedo-pictures {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.index-whatwedo-title-two {
+}
+.index-whatwedo-image1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.index-whatwedo-image2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.index-whatwedo-image3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+/*  our team  */
+
+.index-ourteam {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+.index-ourteam-title {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.index-ourteam-image1 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
+}
+.index-ourteam-image2 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
+}
+.index-ourteam-image3 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 815px;
+  top: 1635px;
+}
+.index-ourteam-image4 {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 1115px;
+  top: 1635px;
+}
+
+.index-ourteam-names {
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.index-ourteam-prof {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*  footer  */
+
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+.webstudio-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.footer-address {
 }
