@@ -1,10 +1,12 @@
 :root {
   --brand-color: #2196f3;
+  --index-btn-hover: #188ce8;
   --portfolio-btn-color: #f5f4fa;
   --title-main-color: #212121;
   --text-main-color: #757575;
   --some-bckgrnd-text-color: #ffffff;
   --accent-bckgnd-color: #2f303a;
+  --address-mail-tel: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -21,18 +23,21 @@ body {
 .header {
   background: var(--some-bckgrnd-text-color);
 }
-.webstudio-top {
-  font-family: Raleway;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.logo-header {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-main-color);
-}
-.web {
-  color: var(--brand-color);
-}
-.header-nav {
 }
 .header-nav-studio {
   font-weight: 500;
@@ -40,10 +45,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-main-color);
-}
-.header-nav-studio .header-nav-portfolio .header-nav-contacts .mail-header .tel-header:hover,
-.header-nav-studio .header-nav-portfolio .header-nav-contacts .mail-header .tel-header:focus {
-  color: var(--brand-color);
 }
 .header-nav-portfolio {
   font-size: 14px;
@@ -58,26 +59,34 @@ body {
   color: var(--title-main-color);
 }
 .mail-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--text-main-color);
 }
 .tel-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--text-main-color);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--brand-color);
 }
 
 /*  -------------!!!index!!!-------------  */
 
 /*  -------------------main------------  */
 
-.main-index {
-  background: #e5e5e5;
-}
-
 /*  -------------------to order-------------  */
 
-.index-section-first {
+.order-section {
   background: var(--accent-bckgnd-color);
 }
-.index-bussines {
+.bussines {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -88,9 +97,17 @@ body {
 .index-button-order {
   font-family: inherit;
   background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
 }
-.button-index-order-text {
+.index-button-order:hover,
+.index-button-order:focus {
+  background: var(--index-btn-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-order-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -103,11 +120,11 @@ body {
 
 /*  -----------------what we do---------------  */
 
-.section-whatwedo {
+.whatwedo-section {
+}
+.whatwedo-title-one {
 }
 .whatwedo-title {
-}
-.list-whatwedo-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -115,7 +132,7 @@ body {
   text-transform: uppercase;
   color: var(--title-main-color);
 }
-.list-whatwedo-text {
+.whatwedo-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -136,7 +153,7 @@ body {
 
 /*  ----------------our team-----------------  */
 
-.index-team {
+.team-section {
 }
 .team-title {
   font-weight: 700;
@@ -176,16 +193,34 @@ body {
 .footer {
   background: var(--accent-bckgnd-color);
 }
-.webstudio-footer {
-  font-family: Raleway;
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--title-main-color);
+  color: var(--some-bckgrnd-text-color);
 }
 .footer-address {
   font-style: normal;
+}
+.address-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--some-bckgrnd-text-color);
+}
+.address-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-mail-tel);
+}
+.address-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-mail-tel);
 }
 
 /*  -------------  !!!!portfolio!!!!  --------------  */
@@ -201,12 +236,16 @@ body {
   background: var(--some-bckgrnd-text-color);
 }
 .filters-btns {
-  color: var(--portfolio-btn-color);
+  background: var(--portfolio-btn-color);
+  border-radius: 4px;
   cursor: pointer;
 }
 .filters-btns:hover,
 .filters-btns:focus {
-  color: var(--brand-color);
+  background: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .btns-text {
   font-weight: 500;
