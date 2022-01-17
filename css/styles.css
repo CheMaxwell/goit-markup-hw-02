@@ -9,7 +9,7 @@
   --address-mail-tel: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
@@ -24,7 +24,7 @@ body {
   background: var(--some-bckgrnd-text-color);
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -32,7 +32,7 @@ body {
   color: var(--brand-color);
 }
 .logo-header {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -47,12 +47,14 @@ body {
   color: var(--title-main-color);
 }
 .header-nav-portfolio {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-main-color);
 }
 .header-nav-contacts {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -123,6 +125,16 @@ body {
 .whatwedo-section {
 }
 .whatwedo-title-one {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .whatwedo-title {
   font-weight: 700;
@@ -194,7 +206,7 @@ body {
   background: var(--accent-bckgnd-color);
 }
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -248,6 +260,7 @@ body {
   border-radius: 4px;
 }
 .btns-text {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
